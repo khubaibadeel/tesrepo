@@ -1,3 +1,0 @@
-git add .
-git commit -m "pasted content of css-final-example.html"
-git push
