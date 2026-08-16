@@ -1,3 +1,0 @@
-git add .
-git commit -m "remove e.txt"
-git push
