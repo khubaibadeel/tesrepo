@@ -1,0 +1,23 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+}
+
+/* Card */
+.card {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 15px;
+}
