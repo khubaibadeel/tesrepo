@@ -5,19 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <style>
-    .card {
+    
+    :root {
+      --radius: 10px;
+      --padding: 20px;
+    }
+
+    #card {
       border: 1px solid black;
 
-      padding: 20px;
-      margin: 20px;
+      padding: var(--padding);
+      margin: var(--padding);
+      border-radius: var(--radius);
+      background-color: brown;
     }
   </style>
 </head>
 <body>
-  <div class="card">Card One</div>
+  <div id="card">Card One</div>
 
-  <div class="card">Card Two</div>
+  <div id="card">Card Two</div>
 </body>
 </html>
 
-/* :root { --radius: 10px; } */ /* border-radius: var(--radius); */
+<!-- /* :root { --radius: 10px; } */ /* border-radius: var(--radius); */ -->
