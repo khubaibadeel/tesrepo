@@ -1,0 +1,19 @@
+Tailwind:
+        "Tailwind CSS is a framework of CSS. It peovides built-in utility classes. Replaceable of writing the whole raw CSS."
+
+
+In Tailwind CSS, styling is applied using inline utility classes.
+
+
+# Why Use Tailwind CSS?
+
+    - Less code compared to traditional CSS.
+    - Enables faster development.
+    - Ensures a consistent design.
+    - Easy to maintain.
+
+
+# Common Tailwind CSS Classes_
+
+    p- – Applies padding.
+    m- – Applies margin.
