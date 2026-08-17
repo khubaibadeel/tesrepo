@@ -1,0 +1,8 @@
+
+There are two methods to use Tailwind in your HTML code.
+
+1. CLI
+2. CDN
+
+    The intructor will use the CDN method in next incoming lectures using a <script> tag in the HTML header file. But it is NOT RECOMMENDED for large projects.
+
