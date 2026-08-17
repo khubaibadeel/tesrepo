@@ -1,9 +1,0 @@
-
-
-
-git status
-
-
-git add . 
-git commit -m "created m14"
-git push
