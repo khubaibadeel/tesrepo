@@ -72,7 +72,7 @@ This repository will continue to evolve as I progress through the course and pra
 
 **Khubaib Adeel**
 
-GitHub: [@khubaibadeel](https://github.com/khubaibadeel)
+GitHub: [khubaibadeel](https://github.com/khubaibadeel)
 
 ## 📌 Note
 
