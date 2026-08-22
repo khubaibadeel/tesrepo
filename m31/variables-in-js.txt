@@ -1,4 +1,9 @@
 # Variable:
         "A variable is a container that is used to store any  type of data."
 
-        
+# Variable Declaration + Initialization:
+        --> Syntax:
+                let variable_name="value";
+
+        Doesn't matter if u don't use semi-colon at the end cuz JavaScript uses a feature called Automatic Semicolon Insertion (ASI). 
+        The JavaScript engine automatically inserts missing semicolons at the end of line breaks during parsing, making semicolons ** technically optional ** in most situations.
