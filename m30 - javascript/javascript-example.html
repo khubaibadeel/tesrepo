@@ -3,15 +3,13 @@
     <body>
         <main>
             <h1>JavaScript Example</h1>
-            <button id="hello-button" type="button">Click Me</button>
+            <button onclick="sayhello()">Click Me</button>
         </main>
 
         <script>
-            const helloButton = document.querySelector("#hello-button");
-
-            helloButton.addEventListener("click", function () {
+            function sayhello() {
                 alert("Hello");
-            });
+            }
         </script>
     </body>
 </html>
