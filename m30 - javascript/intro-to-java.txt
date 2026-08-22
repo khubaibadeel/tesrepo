@@ -5,7 +5,7 @@
         Its purpose is to make Web Applications functional.
 
 # Importance in MERN Stack:
-        It is the core concept of MERN Stack course.
+        It is the core concept of MERN Stack Development.
 
 # Web Applications without JS:
                         Static
@@ -14,7 +14,7 @@
 
 
 # Where JavaScript Runs?
-        --> JavaScript is client-side language by Default. But Node.js enables JavaScript to run inside the server-side.
+        --> JavaScript was a client-side language initially. But Node.js enabled JavaScript to run inside the server-side.
         --> Node.js is built on Google's V8 JavaScript engine, which allows JavaScript code to run outside the web browser.
 
 
@@ -30,3 +30,10 @@
         Head  --> Runs earlier
         Body  --> Recommended to use at the end of body tag
         Use <script> to run Javascript in HTML
+
+
+# Role of JavaScript in Web Applications:
+        --> Helps us interact with the client on browser. For Example, some input entered by the user is taken using JavaScript.
+        --> Helps us update the user interface. For Example, user should be redirected to the dashboard when he clicks the login button.
+
+All the popular socail media platforms such as Instagram, TikTiok, YouTube, etc are built on JavaScript.
