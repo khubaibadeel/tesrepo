@@ -12,3 +12,9 @@
         --> var:    Function-scoped varible         <-- var is avoided in modern JavaScript
         --> let:    Block-scoped variable
         --> const:  Block-scoped constant; cannot be re-assigned
+
+
+# Scopes in JavaScript:
+        --> Global
+        --> Functional
+        --> Block
