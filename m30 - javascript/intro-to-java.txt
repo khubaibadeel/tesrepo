@@ -1,1 +1,7 @@
-            
+JavaScript:
+        "Javascript is a High-level Programming language."
+
+Purpose:
+        Its purpose is to make Web Applications functional.
+
+        It is the core concept of MERN Stack course.
