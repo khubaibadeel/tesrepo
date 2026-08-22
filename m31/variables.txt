@@ -1,0 +1,4 @@
+# Variable:
+        "A variable is a container that is used to store any  type of data."
+
+        
