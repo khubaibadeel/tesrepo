@@ -1,1 +1,17 @@
-<!DOCTYPE html><html><body><button onclick="sayhello()">Click Me</button><script>function sayhello(){alert("Hello")}</script></body></html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <main>
+            <h1>JavaScript Example</h1>
+            <button id="hello-button" type="button">Click Me</button>
+        </main>
+
+        <script>
+            const helloButton = document.querySelector("#hello-button");
+
+            helloButton.addEventListener("click", function () {
+                alert("Hello");
+            });
+        </script>
+    </body>
+</html>
