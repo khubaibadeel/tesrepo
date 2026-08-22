@@ -11,3 +11,6 @@
 // name="Adeel"
 // console.log(name)
 
+const cnic="1234"       // "1234"<-- Is Permanently Stored value
+// cnic="123456"            gets error if tried to change
+console.log(cnic)
