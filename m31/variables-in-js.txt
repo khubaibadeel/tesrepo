@@ -7,3 +7,8 @@
 
         Doesn't matter if u don't use semi-colon at the end cuz JavaScript uses a feature called Automatic Semicolon Insertion (ASI). 
         The JavaScript engine automatically inserts missing semicolons at the end of line breaks during parsing, making semicolons ** technically optional ** in most situations.
+
+# Types of Variables in JavaScript:
+        --> var:    Function-scoped varible         <-- var is avoided in modern JavaScript
+        --> let:    Block-scoped variable
+        --> const:  Block-scoped constant; cannot be re-assigned
