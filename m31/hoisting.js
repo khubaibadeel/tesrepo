@@ -7,11 +7,13 @@
 // var, let, const, and functions behave differently.
 
 
+// ---------------------------------------------------------------------
+
 // # Example with 'var':
 
 console.log(name);
 
-var name = "Ali";
+var name = "Khubaib";
 
 // You might expect an error, but JavaScript prints "undefined".
 // Why? JavaScript effectively treats it like this:
@@ -20,17 +22,18 @@ var name;
 
 console.log(name);
 
-name = "Ali";
+name = "Khubaib";
 // So the declaration is done, but the initialization is not.
 
+// ---------------------------------------------------------------------
 
 
 // # Example with 'let':
 console.log(age);
 
-let age = 25;
+let age = 16;
 
-// This gives an error: ReferenceError: Cannot access 'age' before initialization
+// This gives: ReferenceError: Cannot access 'age' before initialization
 
 // let is technically hoisted too, but you cannot use it 
 // before the declaration line.
@@ -41,8 +44,11 @@ let age = 25;
 // With const, the variable is hoisted, but it stays in the Temporal 
 // Dead Zone until JavaScript reaches its declaration.
 
-console.log(name);
+console.log(fullname);
 
-const name = "Ali";
+const fullname = "Khubaib Adeel";
 
-// This gives: ReferenceError: Cannot access 'name' before initialization
+// This also gives: ReferenceError: Cannot access 'fullname'
+// before initialization
+
+// ---------------------------------------------------------------------
