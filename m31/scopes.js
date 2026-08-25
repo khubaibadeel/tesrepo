@@ -21,5 +21,13 @@ function greet1(){
 }
 greet1();
 
+
+// Block Scope
+
+if(true){
+    let fullname="Khubaib Adeel"  // fullname is a Block Scope Variable. It can be called in the Block only.
+    console.log(fullname)
+}
+
 // Temp Command to run this file in terminal using node:
 // node scopes.js
