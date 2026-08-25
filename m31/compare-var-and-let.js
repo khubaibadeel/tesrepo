@@ -1,10 +1,11 @@
 // let Example:
 
 function greet(){
-    let name="Khubaib"
-    console.log(name);
-}
+    let name="Khubaib"   // fathername cannot be used outside the 
+    console.log(name);   // function/block bcz it is declared using 
+}                        // 'let' datatype.
 greet();
+//console.log(name);     // <-- trying to print it results in an error
 
 
 // var Example:
@@ -15,7 +16,9 @@ function greet1(){
 }
 greet1();
 
-console.log(fathername);  
+console.log(fathername);  // fathername can be used outside the 
+                          // function/block bcz it is declared using 
+                          // 'var' datatype.
 
 
 
