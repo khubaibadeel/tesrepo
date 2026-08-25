@@ -35,3 +35,14 @@ let age = 25;
 // let is technically hoisted too, but you cannot use it 
 // before the declaration line.
 
+
+
+// # Example with 'const':
+// With const, the variable is hoisted, but it stays in the Temporal 
+// Dead Zone until JavaScript reaches its declaration.
+
+console.log(name);
+
+const name = "Ali";
+
+// This gives: ReferenceError: Cannot access 'name' before initialization
