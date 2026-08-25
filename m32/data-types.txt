@@ -5,15 +5,15 @@
         2. Non-Primitive Data Types.
 
 # Primitive Data Types:
-        Integer/Numbers
-        string
-        boolean
-        undefined
-        null
-
+        1. Numbers
+        2. Strings
+        3. Booleans
+        4. Undefined
+        5. Null
+        
 Theoretically, primitive data types are predefined.
 
 # Non-Primitive Data Types:
-        Objects
-        Arrays
+        1. Objects     --> Syntax: var_type={key:value, key:value,...}
+        2. Arrays      --> Syntax: var_type=[value, value,...]
 
