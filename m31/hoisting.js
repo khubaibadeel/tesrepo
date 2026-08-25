@@ -24,3 +24,14 @@ name = "Ali";
 // So the declaration is done, but the initialization is not.
 
 
+
+// # Example with 'let':
+console.log(age);
+
+let age = 25;
+
+// This gives an error: ReferenceError: Cannot access 'age' before initialization
+
+// let is technically hoisted too, but you cannot use it 
+// before the declaration line.
+
