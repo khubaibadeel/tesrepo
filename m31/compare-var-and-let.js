@@ -15,6 +15,9 @@ function greet1(){
 }
 greet1();
 
+console.log(fathername);  
+
+
 
 // Temp Command to execute this file in the terminal:
 // node compare-var-and-let.js
