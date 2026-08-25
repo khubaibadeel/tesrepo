@@ -12,3 +12,8 @@
         null
 
 Theoretically, primitive data types are predefined.
+
+# Non-Primitive Data Types:
+        Objects
+        Arrays
+
