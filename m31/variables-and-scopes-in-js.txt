@@ -9,12 +9,19 @@
         The JavaScript engine automatically inserts missing semicolons at the end of line breaks during parsing, making semicolons ** technically optional ** in most situations.
 
 # Types of Variables in JavaScript:
-        --> var:    Function-scoped varible         <-- var is avoided in modern JavaScript
+        --> var:    Function-scoped varible     <-- var is avoided in modern JavaScript
         --> let:    Block-scoped variable
         --> const:  Block-scoped constant; cannot be re-assigned
 
+------------------------------------------------------------------------
 
 # Scopes in JavaScript:
-        --> Global
-        --> Functional
-        --> Block
+        --> Global 
+        --> Functional 
+        --> Block 
+
+------------------------------------------------------------------------
+
+# Hoisting:
+Not visible in Practicle life but is present as an interview question.
+
