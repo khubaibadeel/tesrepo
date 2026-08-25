@@ -15,12 +15,9 @@ function greet1(){
     console.log(fathername);
 }
 greet1();
-
 console.log(fathername);  // fathername can be used outside the 
                           // function/block bcz it is declared using 
                           // 'var' datatype.
-
-
 
 // Temp Command to execute this file in the terminal:
 // node compare-var-and-let.js
