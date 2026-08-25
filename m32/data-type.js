@@ -17,3 +17,5 @@ console.log(isStudent)
 console.log(test)
 console.log(city)
 
+// Temp command to run the code
+// node data-type.js
