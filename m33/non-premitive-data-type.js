@@ -14,5 +14,7 @@ console.log(user["age"])
 
 
 // # Array
+
+let fruit = "Apple"
 // Temp command to run the code
 // node non-premitive-data-type.js
