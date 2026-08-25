@@ -1,0 +1,14 @@
+
+# Data Types:
+        There are generally two data types on the higher level:
+        1. Primitive Data Types.
+        2. Non-Primitive Data Types.
+
+# Primitive Data Types:
+        Integer/Numbers
+        string
+        boolean
+        undefined
+        null
+
+Theoretically, primitive data types are predefined.
