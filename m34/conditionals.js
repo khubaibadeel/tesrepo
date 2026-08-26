@@ -1,5 +1,5 @@
 
-
+// if-else:
 let a = 18
 if (a<18){
     console.log("You are Minor.")
