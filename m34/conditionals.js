@@ -10,3 +10,10 @@ else if(a>=18 && a<=60){
 else {
     console.log("You are Old.")
 }
+
+
+// Ternary Operator:
+// if(){}else{}
+let marks=40
+let ispassorfail = marks>=40 ? "Pass" : "Fail"
+console.log(ispassorfail)
