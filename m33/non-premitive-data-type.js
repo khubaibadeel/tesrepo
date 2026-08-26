@@ -18,8 +18,8 @@ console.log(user["age"])
 //Syntax:
 // var_type var_name=[value, value,...]
 
-let fruit = ["Apple","Banana"]
-console.log(fruit)
+let fruit = ["Apple","Banana", "Mango"]
+console.log(fruit[2])
 
 // Temp command to run the code
 // git add .
