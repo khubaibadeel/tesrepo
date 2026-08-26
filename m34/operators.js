@@ -39,12 +39,4 @@ console.log(age_1 == age_2)    // Output: true
 
 let f_age= "40"
 let m_age= 40
-console.log(f_age === m_age)    // Output: false
-                            // bcz values are same but datatype is also judged.
-
-
-// Logical:
-let hasCNIC=true
-let student_age=20
-
-console.log( student_age>=18 && hasCNIC)   // Output: true
+console.log(f_age === m_age)    //
