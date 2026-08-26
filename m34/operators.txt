@@ -1,0 +1,9 @@
+
+# Operators in JavaScript:
+        --> Arithmatic Operators
+        --> Increment/Decrement (++, --)
+        --> Assignment Operators (=, +=)
+        --> Comparison Operators (==,===,!=,<,>)
+        --> Logical Operators (&&, ||, !)
+        --> Ternary Operator
+        
