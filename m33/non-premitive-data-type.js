@@ -20,9 +20,3 @@ console.log(user["age"])
 
 let fruit = ["Apple","Banana", "Mango"]
 console.log(fruit[2])
-
-// Temp command to run the code
-// git add .
-// git commit -m "message"
-// git push
-// node non-premitive-data-type.js
