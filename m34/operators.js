@@ -7,14 +7,14 @@
 //         --> Ternary Operator
 
 
-// Arithmetic:
+// Arithmetic Operator:
 let a = 1
 let b = 2
 
 console.log(a + b)    // Output: 3
 
 
-// Increment/Decrement:
+// Increment/Decrement Operator:
 let x = 1
 
 a++
@@ -22,11 +22,11 @@ a++
 console.log(a)        // Output: 2
 
 
-// Assignment:
+// Assignment Operator:
 let num = 2           // Assigned the value '2' to variable 'num'
 
 
-// Comparison:
+// Comparison Operator:
 const name = "Khubaib"
 let surname = "Adeel"
 
@@ -52,11 +52,11 @@ console.log(f_age === m_age)   // Output: false
 // Values are the same, but datatype is also checked with ===
 
 
-// Logical:
+// Logical Operator:
 let hasCNIC = true
 let student_age = 20
 
 console.log(student_age >= 18 && hasCNIC)   // Output: true
 
 
-// Conditionals are in the next file
+// Ternary Operator are in the conditionals.js file
