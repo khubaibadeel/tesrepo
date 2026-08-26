@@ -2,15 +2,15 @@
 
 // console.log(typeof var_name)
 
-let age = "25" 
+let age = "16" 
 console.log(typeof age)     // Output: string
 
 age = Number(age)
 console.log(typeof age)     // Output: number
 
 
-let height = "5.5"
-console.log(typeof height)  // Output: string
+let f_age = 45
+console.log(typeof f_age)   // Output: number
 
-height = Number(height)
-console.log(typeof height)  // Output: number
+f_age = String(f_age)
+console.log(typeof f_age)   // Output: string
