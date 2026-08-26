@@ -7,7 +7,7 @@
 let user={ name:"Khubaib", age : 16, gender: "Male" }
 console.log(user)
 
-console.log(user.name)     // Recommended way to access the value
+console.log(user.name)     // <-- Recommended way to access the value
 // OR
 console.log(user["age"])
 
@@ -20,5 +20,9 @@ console.log(user["age"])
 
 let fruit = ["Apple","Banana"]
 console.log(fruit)
+
 // Temp command to run the code
+// git add .
+// git commit -m "message"
+// git push
 // node non-premitive-data-type.js
