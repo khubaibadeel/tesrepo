@@ -47,4 +47,4 @@ console.log(f_age === m_age)    // Output: false
 let hasCNIC=true
 let student_age=20
 
-console.log( student_age>=18 && hasCNIC)   // Output: true
+console.log(student_age >= 18 && hasCNIC)   // Output: true
