@@ -13,12 +13,11 @@ greet()   // <-- Function called
 
 // Practice Function
 function addition(a,b){
-    return a+b
+    console.log(a+b)
 }
 let x=100
 let y=900
-let sum=addition(x,y)
-console.log(sum)
+addition(x,y)
 
 
 // The Difference between arguments and parameters:
