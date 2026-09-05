@@ -42,11 +42,12 @@ console.log("Delivery Charges are RS."+DeliveryCharges(5)+".")
 
 
 // The Concept of Default Parameters:-
-//  Default Parameters are used when u want "undefined" not to get printed on the output screen, if no argument is passed.
+
+//  Default Parameters is a very Important concept used when u want "undefined" not to get printed on the output screen, if no argument is passed.
 
 const gender=(gender="Mix 😂")=>{
     console.log("Gender =",gender)
 }
 gender() // <-- Mix gets printed as an output instead of undefined!
 
-// It is a very Important concept which is used when we want to cover undefined or null output.
+// Order Reciept Creation to Understand Default Params:
