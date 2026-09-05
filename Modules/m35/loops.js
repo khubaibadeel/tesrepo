@@ -22,6 +22,7 @@ for (let val of array){
     console.log(val)
 }
 
+
 let obj = {name:"Khabaib", fname:"Adeel", age:16}
 for (let key in obj){
     console.log(key, obj[key])
