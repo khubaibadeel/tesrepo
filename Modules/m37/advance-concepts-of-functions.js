@@ -20,6 +20,7 @@ intro=function(name){
 }
 intro("Khubaib")
 
+
 // Arrow Function:-
 const marks=(marks)=>{
     console.log("You have got " + marks + " marks.")
@@ -36,8 +37,7 @@ const square = (n) => n * n
 console.log("Square of n is",square(9)+".")
 
 // Delivery Charges Calculator for a Food Delivery App:
-// Condition: 1Km = RS.20
-const DeliveryCharges=(km)=> km * 20
+const DeliveryCharges=(km)=> km * 20    // Condition: 1Km = RS.20
 console.log("Delivery Charges are RS."+DeliveryCharges(5)+".")
 
 
@@ -57,3 +57,6 @@ const order=(item,quantity=1)=>{
 }
 order("Burger", 1)
 order("Pizza") // As the quantity is not specified, it'll still use the Default Value i.e., 1.
+
+
+// Rest Parameters:-
