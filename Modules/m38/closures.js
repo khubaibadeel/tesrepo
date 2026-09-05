@@ -17,14 +17,18 @@ outer()
 
 
 // Closure:-
+// A closure is when an inner function remembers and can access variables from its outer function, even after the outer function has finished executing.
+// Simple analogy:- "Like a student carrying a notebook from home to class, the inner function keeps access to the outer function's variables even after the outer function is done."
 
 function outerFunc(){
     let name="Khubaib"
+
     function innerFunc(){
         console.log(name)
     }
-    innerFunc()
+
+    return innerFunc
 }
 
-const myFunction=outerFunc()
+const myFunction = outerFunc()
 myFunction()
