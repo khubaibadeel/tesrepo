@@ -19,5 +19,5 @@ else {
 //      condition ? valueIfTrue : valueIfFalse
 
 let marks=40
-let ispassorfail = marks>=40 ? "Pass" : "Fail"
+let ispassorfail=marks>=40 ? "Pass":"Fail"
 console.log(ispassorfail)
