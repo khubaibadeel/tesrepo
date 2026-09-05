@@ -52,8 +52,8 @@ gender() // <-- Mix gets printed as an output instead of undefined!
 
 
 // Order Reciept Creation to Understand Default Params:
-const item=(name,quantity=1)=>{
-    console.log(name,"x",quantity)
+const order=(item,quantity=1)=>{
+    console.log(item,"x",quantity)
 }
-item("Burger", 1)
-item("Pizza") // As the quantity is not specified, it'll still use the Default Value i.e., 1.
+order("Burger", 1)
+order("Pizza") // As the quantity is not specified, it'll still use the Default Value i.e., 1.
