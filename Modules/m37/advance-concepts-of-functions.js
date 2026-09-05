@@ -64,3 +64,16 @@ const showNumber=(...number)=>{ // Here, ... is a rest operator which converts s
     console.log(number)            
 }
 showNumber(1,2,3,4,5)
+
+
+function totalMarks(...marks){
+    let total=0
+
+    for(let mark of marks){
+        total=total+mark
+    }
+
+    return total
+}
+
+console.log(totalMarks(50,30,20))
