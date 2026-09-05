@@ -50,4 +50,10 @@ const gender=(gender="Mix 😂")=>{
 }
 gender() // <-- Mix gets printed as an output instead of undefined!
 
+
 // Order Reciept Creation to Understand Default Params:
+const item=(name,quantity=1)=>{
+    console.log(name,"x",quantity)
+}
+item("Burger", 1)
+item("Pizza") // As the quantity is not specified, it'll still use the Default Value i.e., 1.
