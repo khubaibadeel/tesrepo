@@ -7,4 +7,7 @@
 
 // Syntax of For Loop:
 // for (initialization ; condition ; inc/dec)
+// {
+    
+// }
 
