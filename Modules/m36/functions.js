@@ -15,8 +15,16 @@ greet()   // <-- Function called
 function addition(a,b){
     return a+b
 }
-
 let x=100
 let y=900
 let sum=addition(x,y)
 console.log(sum)
+
+
+// The Difference between arguments and parameters:
+
+// Parameters:-
+// The input values/vaiables of a funtion are called Parameters.
+
+// Arguments:-
+// The values/variables(containing the values) passed to a function are called arguments.
