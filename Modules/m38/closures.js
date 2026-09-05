@@ -14,3 +14,6 @@ function outer(){
     inner() // outer function calls inner function which further prints course's value.
 }
 outer()
+
+
+// Closure:-0
