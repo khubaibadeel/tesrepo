@@ -60,3 +60,7 @@ order("Pizza") // As the quantity is not specified, it'll still use the Default 
 
 
 // Rest Parameters:-
+const showNumber=(...number)=>{ // Here, ... is a rest operator which converts simple variable into an array holder.
+    console.log(number)            
+}
+showNumber(1,2,3,4,5)
