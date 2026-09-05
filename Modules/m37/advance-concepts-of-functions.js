@@ -48,3 +48,5 @@ const gender=(gender="Mix 😂")=>{
     console.log("Gender =",gender)
 }
 gender() // <-- Mix gets printed as an output instead of undefined!
+
+// It is a very Important concept which is used when we want to cover undefined or null output.
