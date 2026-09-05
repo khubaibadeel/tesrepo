@@ -23,6 +23,8 @@ for (let val of array){
 }
 
 
+// Practical Example: How to manage the data coming from the server in structure of Objects
+
 let obj = {name:"Khabaib", fname:"Adeel", age:16}
 for (let key in obj){
     console.log(key, obj[key])
