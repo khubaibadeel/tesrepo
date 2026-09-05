@@ -17,6 +17,7 @@ outer()
 
 
 // Closure:-
+
 function outerFunc(){
     let name="Khubaib"
     function innerFunc(){
