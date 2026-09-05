@@ -16,7 +16,7 @@ greet("Khubaib")
 
 // Functional Expression:-
 intro=function(name){
-    console.log("Are you "+name+"?")
+    console.log("Are you really "+name+"?")
 }
-intro("Adeel")
+intro("Khubaib")
 
