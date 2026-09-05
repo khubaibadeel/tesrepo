@@ -35,4 +35,7 @@ marks(90)
 const square = (n) => n * n
 console.log(square(9))
 
-
+// Delivery Charges Calculator for a Food Delivery App:
+// Condition: 1Km = RS.20
+const DeliveryCharges=(km)=> km * 20
+console.log(DeliveryCharges(5))
