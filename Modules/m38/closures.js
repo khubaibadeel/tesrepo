@@ -16,4 +16,14 @@ function outer(){
 outer()
 
 
-// Closure:-0
+// Closure:-
+function outerFunc(){
+    let name="Khubaib"
+    function innerFunc(){
+        console.log(name)
+    }
+    innerFunc()
+}
+
+const myFunction=outerFunc()
+myFunction()
