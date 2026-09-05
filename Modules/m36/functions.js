@@ -34,3 +34,6 @@ const sayhi = function (){
 }
 sayhi()
 // We usually use Functional Expression instead of Basic Functions.
+
+
+// JS is case-sensitive, so deal with it carefully.
