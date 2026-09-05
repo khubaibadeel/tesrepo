@@ -22,10 +22,26 @@ for (let val of array){
     console.log(val)
 }
 
+console.log("") // for a line skip
 
 // Practical Example: How to manage the data coming from the server in structure of Objects
 
 let obj = {name:"Khabaib", fname:"Adeel", age:16}
 for (let key in obj){
     console.log(key, obj[key])
+}
+
+
+console.log("") // for a line skip
+
+for (let i = 1; i <= 5; i++) {
+    if (i === 3) continue;
+    console.log(i);
+}
+
+console.log("") // for a line skip
+
+for (let i = 1; i <= 5; i++) {
+    if (i === 3) break;
+    console.log(i);
 }
