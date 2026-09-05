@@ -39,3 +39,10 @@ console.log(square(9))
 // Condition: 1Km = RS.20
 const DeliveryCharges=(km)=> km * 20
 console.log(DeliveryCharges(5))
+
+
+// The Concept of Default Parameters:-
+const gender=(gender="Mix")=>{
+    console.log("Gender =",gender)
+}
+gender()
