@@ -11,15 +11,6 @@ function greet(){
 greet()   // <-- Function called
 
 
-// Practice Function
-function addition(a,b){
-    console.log(a+b)
-}
-let x=100
-let y=900
-addition(x,y)
-
-
 // The Difference between arguments and parameters:
 
 // Parameters:-
@@ -27,3 +18,19 @@ addition(x,y)
 
 // Arguments:-
 // The values/variables(containing the values) passed to a function are called arguments.
+
+
+// Multiple Parameters:
+function addition(a,b){
+    console.log(a+b)
+}
+let x=100
+let y=900
+addition(x,y)
+
+// Functional Expressions:
+const sayhi = function (){
+    console.log("SayHi Function")
+}
+sayhi()
+// We usually use Functional Expression instead of Basic Functions.
