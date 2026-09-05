@@ -20,3 +20,19 @@ intro=function(name){
 }
 intro("Khubaib")
 
+// Arrow Function:-
+const marks=(marks)=>{
+    console.log("You have got " + marks + " marks.")
+    if (marks>=70)
+        console.log("Good Job")
+    else
+        console.log("You have to Work Hard!")
+}
+marks(90)
+
+// Arrow Function having Single Parameter:-
+// Square Finder:
+const square = (n) => n * n
+console.log(square(9))
+
+
